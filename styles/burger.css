@@ -1,0 +1,38 @@
+.burger__container {
+  border: 0;
+  padding: 20px;
+  background: transparent;
+  margin: -20px;
+  cursor: pointer;
+}
+
+.burger {
+  position: relative;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+.burger,
+.burger:before,
+.burger:after {
+  width: 33px;
+  height: 4px;
+  background: #000;
+  border: 0;
+}
+
+.burger:before,
+.burger:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  content: "";
+}
+
+.burger:after {
+  top: -8px;
+}
+
+.burger:before {
+  bottom: -8px;
+}

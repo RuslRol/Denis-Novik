@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Denis Novik, UX/UI designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="./styles/index.css"/>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <nav class="mobile-nav js-mobile-nav" hidden>
+      <button class="mobile-nav__close js-mobile-nav-close">close</button>
+      <a class="js-mobile-link nav__link_active" href="#">Home</a>
+      <a class="js-mobile-link" href="#about">About</a>
+      <a class="js-mobile-link" href="#skills">Skills</a>
+      <a class="js-mobile-link" href="#portfolio">Portfolio</a>
+      <a class="js-mobile-link" href="#contacts">Contacts</a>
+    </nav>
+
+    <div class="container">
+      <nav class="nav">
+        <a class="nav__link nav__link_active" href="#">Home</a>
+        <a class="nav__link" href="#about">About</a>
+        <a class="nav__link" href="#skills">Skills</a>
+        <a class="nav__link" href="#portfolio">Portfolio</a>
+        <a class="nav__link" href="#contacts">Contacts</a>
+      </nav>
+
+      <div class="intro">
+        <button class="intro__burger burger__container js-burger">
+          <div class="burger"></div>
+        </button>
+        <h1 class="intro__title">
+          Denis <br />
+          Novik
+        </h1>
+        <p class="intro__about">
+          UX | UI designer <br />
+          24 years old, Minsk
+        </p>
+      </div>
+
+      <img class="intro__photo" src="./img/denis.jpg" />
+      <img class="intro__photo__mobile" src="./img/denis-mobile.jpg" />
+
+      <div class="gray-back">
+        <div class="container">
+          <h2 id="about" class="intro__titleOne">About me</h2>
+          <p class="intro__text">
+            Hi, I'm Denis – UX/UI designer from Minsk. <br />
+            I'm interested in design and everything connected with it.
+          </p>
+          <p class="intro__text">
+            I'm studying at courses "Web and mobile design <br />
+            interfaces" in IT-Academy.
+          </p>
+          <p class="intro__text">
+            Ready to implement excellent projects <br />
+            with wonderful people.
+          </p>
+        </div>
+      </div>
+
+      <div class="skills-time">
+        <div class="container">
+          <h2 id="skills" class="intro__titleOne">Skills</h2>
+        </div>
+
+        <p class="intro__text">I work in such programs as</p>
+
+        <div class="intro__programs">
+          <div class="intro__name">
+            <img src="./img/ps.svg" alt="picture first" />
+            <p>
+              Adobe <br />
+              Photoshop
+            </p>
+            <div class="intro__star">
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-white.svg" alt="Star-white" />
+            </div>
+          </div>
+          <div class="intro__name">
+            <img src="./img/ai.svg" alt="second picture" />
+            <p>
+              Adobe <br />
+              Illustrator
+            </p>
+            <div class="intro__star">
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-white.svg" alt="Star-white" />
+              <img src="./img/Star-white.svg" alt="Star-white" />
+            </div>
+          </div>
+          <div class="intro__name">
+            <img src="./img/ae.svg" alt="picture three" />
+            <p>
+              Adobe <br />
+              After Effects
+            </p>
+            <div class="intro__star">
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-white.svg" alt="Star-white" />
+            </div>
+          </div>
+          <div class="intro__name">
+            <img src="./img/figma.svg" alt="picture four" />
+            <p>
+              Figma <br />
+              <br />
+            </p>
+            <div class="intro__star">
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-black.svg" alt="Star-black" />
+              <img src="./img/Star-black.svg" alt="Star-black" />
+
+              <img src="./img/Star-white.svg" alt="Star-white" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="portfolio-time">
+        <div>
+          <h2 id="portfolio" class="intro__titleThree">Portfolio</h2>
+        </div>
+
+        <img
+          class="intro__photoBlog"
+          src="./img/portfolio.jpg"
+          width="940px"
+          height="512"
+        />
+
+        <a href="#" class="intro__textBlog">Online fashion store - Homepage</a>
+
+        <img
+          class="intro__photoBlog"
+          src="./img/reebok.jpg"
+          width="940px"
+          height="512"
+        />
+
+        <a href="#" class="intro__textBlog">Reebok Store - Concept</a>
+
+        <img
+          class="intro__photoBlog"
+          src="./img/braun.jpg"
+          width="940px"
+          height="512"
+        />
+
+        <a href="#" class="intro__textBlog">Braun Landing Page - Concept</a>
+      </div>
+
+      <div class="contacts-time">
+        <div>
+          <h2 id="contacts" class="intro__titleFour">Contacts</h2>
+        </div>
+
+        <p class="intro__textContacts">
+          Want to know more or just chat? <br />
+          You are welcome!
+        </p>
+
+        <button class="intro__button">Send message</button>
+        <div class="intro__icon">
+          <img src="./img/icon1.svg" alt="icon" />
+          <img src="./img/icon2.svg" alt="icon" />
+          <img src="./img/icon3.svg" alt="icon" />
+          <img src="./img/icon4.svg" alt="icon" />
+        </div>
+        <p class="intro__textFooter">
+          Like me on <br />
+          LinkedIn, Instagram, Behance, Dribble
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
